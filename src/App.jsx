@@ -1,11 +1,12 @@
 import './App.css'
-import ShopHeader from './components/Header/ShopHeader';
+
+import ShoppingList from './components/ShoppingList/ShoppingList';
 
 function App() {
 
   return (
     <>
-      <ShopHeader/>
+      <ShoppingList/>
     </>
   )
 }

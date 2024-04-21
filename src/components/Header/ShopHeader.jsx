@@ -1,7 +1,8 @@
-import header_image from '../../assets/header_image.avif';
 import './ShopHeader.css';
 
-function Header() {
+import header_image from '../../assets/header_image.avif';
+
+function ShopHeader() {
     return (
         <div className='header-wrapper'>
         <h1 className='header-text'>
@@ -17,4 +18,4 @@ function Header() {
     )
 }
 
-export default Header;
+export default ShopHeader;
